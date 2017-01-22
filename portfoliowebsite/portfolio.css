@@ -1,0 +1,43 @@
+ul a {
+	padding-right:5px;
+}
+.bio{
+	position: relative;
+	top: 25px;
+	left:10px;
+}
+body {
+	background-color: #07288d;
+	background-image: url(image/fence.jpg);
+	max-width:100%;
+	height: auto;
+}
+#portfolio{
+background-color: #f4e8c2;	
+}
+#about{
+background-color: #f0e7cb;
+}
+#contact{
+background-color: #f0e7cb;
+}
+.portrait{
+float: right;
+}
+#contact img{
+margin: 0 25px 5px 25px;
+}
+#portfolio img{
+margin: 0 15px 0 15px;
+opacity: 1.0;
+transition: opacity 0.2s ease-in-out;
+}
+#portfolio img:hover{
+	opacity: 0.75;
+}
+#about img{
+	border: 5px solid #ffffff;
+}
+#about p{
+	font-size: 16px;
+}

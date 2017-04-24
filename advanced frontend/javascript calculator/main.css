@@ -1,0 +1,89 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Iceland');
+body{
+background:#9A5C1D url(woodbackgroundedit.jpg);	
+}
+.case{
+	margin-top: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px #000000 solid;
+	height:200px;
+	width:270px;
+	background-color: #D8D8CD;
+	box-shadow: 4px 5px 5px #1a262f;
+}
+.display{
+	margin-top: 8px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	width:250px;
+	height: 50px;
+	border: 3px #000000 solid;
+	background-color: #26834E;
+}
+.buttons{
+	background: #c8c8bD;
+	margin-top: 10px;
+	border: 1px #353535 solid;
+	width: 250px;
+	height: 100px;
+	margin-left: auto;
+	margin-right:auto;
+}
+.numbers{
+	float: left;
+	width:125px;
+}
+.operators{
+
+	float: right;
+	width:125px;
+}
+.mid{
+	float:left;
+	width: 70px;
+}
+.out{
+	float:right;
+	width:35px;
+}
+button{
+	width: 35px;
+	height: 25px;
+	border: 1px #353535 solid;
+}
+.Clear{
+	background:#A90000;
+	color: #cccccc;
+}
+.ClearEntry{
+	background:#CC4A12;
+	color: #cccccc;
+}
+.add{
+	height:50px;
+}
+.zero{
+	width:70px;
+}
+#current, #oplist{
+	text-align:right;
+	font-family: 'Iceland', cursive;
+}
+#current{
+	font-size: 36px;
+}
+#oplist{
+	padding-top:4px;
+	font-size: 12px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
+footer{
+	color: #ffffff;
+	position: fixed;
+	bottom: 3px;
+}
